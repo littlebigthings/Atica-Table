@@ -193,6 +193,23 @@
   background-color: #f2f5fd;
 }
 
+.collapse-table tr:not(:first-child) td:nth-child(1),
+.collapse-table tr:not(:first-child) td:nth-child(2),
+.collapse-table tr:not(:first-child) td:nth-child(3),
+.collapse-table tr:not(:first-child) td:nth-child(11),
+.collapse-table tr:not(:first-child) td:nth-child(12),
+.collapse-table tr:not(:first-child) td:nth-child(13),
+.collapse-table tr:not(:first-child) td:nth-child(14) {
+  text-align: center;
+}
+
+.collapse-table tr:not(:first-child) td:nth-child(4),
+.collapse-table tr:not(:first-child) td:nth-child(6),
+.collapse-table tr:not(:first-child) td:nth-child(8) {
+  text-align: center;
+}
+
+
 .collapse-table tr:not(:first-child) td:nth-child(4),
 .collapse-table tr:not(:first-child) td:nth-child(6),
 .collapse-table tr:not(:first-child) td:nth-child(8) {
@@ -204,14 +221,14 @@
 .collapse-table tr:not(:first-child) td:nth-child(9) {
   border-left: none;
 }
-.collapse-table tr:not(:first-child) th:nth-child(4),
-.collapse-table tr:not(:first-child) th:nth-child(6),
-.collapse-table tr:not(:first-child) th:nth-child(8) {
-  border-left: none;
+.collapse-table tr:last-child th:nth-child(4),
+.collapse-table tr:last-child th:nth-child(6),
+.collapse-table tr:last-child th:nth-child(8) {
+  border-right: none;
 }
-.collapse-table tr:not(:first-child) th:nth-child(5),
-.collapse-table tr:not(:first-child) th:nth-child(7),
-.collapse-table tr:not(:first-child) th:nth-child(9) {
+.collapse-table tr:last-child th:nth-child(5),
+.collapse-table tr:last-child th:nth-child(7),
+.collapse-table tr:last-child th:nth-child(9) {
   border-left: none;
 }
 
@@ -244,6 +261,29 @@
   background-color: #f2f5fd;
 }
 
+.last-table tr:not(:first-child) td:nth-child(2),
+.last-table tr:not(:first-child) td:nth-child(4),
+.last-table tr:not(:first-child) td:nth-child(6),
+.last-table tr:not(:first-child) td:nth-child(11) {
+  border-right: none;
+}
+
+.last-table tr:not(:first-child) td:nth-child(3),
+.last-table tr:not(:first-child) td:nth-child(5),
+.last-table tr:not(:first-child) td:nth-child(7),
+.last-table tr:not(:first-child) td:nth-child(12) {
+  border-left: none;
+}
+
+.last-table tr:not(:first-child) td:nth-child(1),
+.last-table tr:not(:first-child) td:nth-child(2),
+.last-table tr:not(:first-child) td:nth-child(4),
+.last-table tr:not(:first-child) td:nth-child(6),
+.last-table tr:not(:first-child) td:nth-child(11),
+.last-table tr:not(:first-child) td:nth-child(12){
+  text-align: center;
+}
+
 .footer-section{
   background-color:#1E263B;
   padding: 30px 20px 50px 20px;
@@ -258,6 +298,10 @@
 .footer-social-logo{
   width: 18px;
   height: 18px;
+}
+.url{
+  color: white;
+  text-decoration: none;
 }
 
 .para-14-inter{
