@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 .collapse-table table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -64,6 +65,9 @@
 .mb-8 {
   margin-bottom: 8px;
 }
+.mb-16 {
+  margin-bottom: 16px;
+}
 .mb-20 {
   margin-bottom: 20px;
 }
@@ -107,7 +111,7 @@
 }
 .para-14.green {
   color: #24c23e;
-  background-image: url("https://uploads-ssl.webflow.com/6492b0f1e0346cedcf184721/6492d3bbdca7fbd98c0a29ed_green.svg");
+  background-image: url("./green.svg");
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: 12.25px 9.19px;
@@ -115,7 +119,7 @@
 }
 .para-14.red {
   color: #d63131;
-  background-image: url("https://uploads-ssl.webflow.com/6492b0f1e0346cedcf184721/6492d3bae423ced7b76c4390_red.svg");
+  background-image: url("./red.svg");
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: 12px 9px;
@@ -225,4 +229,40 @@
 .footer-section{
   background-color:#1E263B;
   padding: 30px 20px 50px 20px;
+}
+.footer-logo-wrapper{
+  max-width: 118px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.footer-social-logo{
+  width: 18px;
+  height: 18px;
+}
+
+.para-14-inter{
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.12;
+  color: #FFFFFF;
+}
+.para-10{
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #FFFFFF;
+}
+
+.mw-235{
+  width: 100%;
+  max-width: 235px;
+}
+
+.footer-logo{
+  width: 83px;
+  height: 36px;
 }
