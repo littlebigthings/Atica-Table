@@ -193,9 +193,27 @@
   background-color: #f2f5fd;
 }
 
-/* .collapse-table tr:not(:first-child):not(:last-child):nth-child(even) {
-  background-color: #ffffff;
-} */
+.collapse-table tr:not(:first-child) td:nth-child(4),
+.collapse-table tr:not(:first-child) td:nth-child(6),
+.collapse-table tr:not(:first-child) td:nth-child(8) {
+  border-right: none;
+}
+
+.collapse-table tr:not(:first-child) td:nth-child(5),
+.collapse-table tr:not(:first-child) td:nth-child(7),
+.collapse-table tr:not(:first-child) td:nth-child(9) {
+  border-left: none;
+}
+.collapse-table tr:not(:first-child) th:nth-child(4),
+.collapse-table tr:not(:first-child) th:nth-child(6),
+.collapse-table tr:not(:first-child) th:nth-child(8) {
+  border-left: none;
+}
+.collapse-table tr:not(:first-child) th:nth-child(5),
+.collapse-table tr:not(:first-child) th:nth-child(7),
+.collapse-table tr:not(:first-child) th:nth-child(9) {
+  border-left: none;
+}
 
 .center-align {
   text-align: center;
